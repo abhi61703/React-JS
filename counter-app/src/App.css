@@ -1,0 +1,72 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  transition: background-color 0.5s ease;
+}
+
+.App {
+  text-align: center;
+  padding: 50px;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(1);
+}
+
+/* Reset button */
+button:nth-child(1) {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Increment button */
+button:nth-child(2) {
+  background-color: #28a745;
+  color: white;
+}
+
+/* Decrement button */
+button:nth-child(3) {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Background for 15 count */
+.green-bg {
+  background-color: #28a745 !important;
+}
+
+/* Background for 0 count */
+.red-bg {
+  background-color: #dc3545 !important;
+}
