@@ -26,7 +26,7 @@ function App() {
       setCount(count - 1);
     }
   };
-
+  
   const resetCount = () => {
     setCount(0);
   };
